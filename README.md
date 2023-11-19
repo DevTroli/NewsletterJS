@@ -47,7 +47,8 @@ As principais tecnologias deste projeto incluem:
 
 ### Ou confira o deploy na vercel
 
-[]
+[NewsletterJS](https://newsletter-js-gules.vercel.app/)
+
 
 ## Estrutura do Projeto
 
