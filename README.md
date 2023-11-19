@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Newsletter
 
-## Getting Started
+## Sobre o Projeto
 
-First, run the development server:
+Aplicação Next.js de uma landing page para uma newsletter. Ele foi configurado com várias tecnologias listadas abaixo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As principais tecnologias deste projeto incluem:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next
+- Typescripts
+- Tailwind
+- Shadcn-UI
+- Zod
+- React-hooks Form
+- ... (e outras Tecnologias)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Como Começar
 
-## Learn More
+### Pré-requisitos
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js
+- Yarn ou NPM
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Instalação
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone o repositório
+   `git clone https://github.com/seuusuario/newsletter.git`
 
-## Deploy on Vercel
+2. Instale os pacotes usando
+   `yarn install`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Uso
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Para iniciar o servidor de desenvolvimento
+
+`yarn dev`
+
+### Para construir a aplicação
+
+`yarn build`
+
+### Para iniciar a aplicação construída
+
+`yarn start`
+
+### Ou confira o deploy na vercel
+
+[]
+
+## Estrutura do Projeto
+
+A estrutura principal do projeto inclui diretórios para componentes, utilitários, estilos globais e páginas.
+
+- /components: Este diretório contém todos os componentes reutilizáveis.
+- /libs: Funções utilitárias e lógica compartilhada.
+- /styles: Estilos globais CSS.
+- /app: As páginas da aplicação.
